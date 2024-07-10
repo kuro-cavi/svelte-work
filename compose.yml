@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+
+  ### App #########################################
+  app:
+    image: node:21-bookworm
+    volumes:
+      - ./app:/app
+      - node-module-volume:/app/node_modules
+    working_dir: /app
+    ports:
+      - "5173:5173"
+    init: true
+    tty: true
+    stdin_open: true
+
+volumes:
+  node-module-volume:
