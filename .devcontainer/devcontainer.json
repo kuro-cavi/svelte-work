@@ -12,15 +12,7 @@
       ],
       "settings": {
         "files.eol": "\n",
-        "[javascript]": {
-          "editor.defaultFormatter": "esbenp.prettier-vscode",
-          "editor.tabSize": 2
-        },
-        "[typescript]": {
-          "editor.defaultFormatter": "esbenp.prettier-vscode",
-          "editor.tabSize": 2
-        },
-        "[typescriptreact]": {
+        "[javascript][typescript]": {
           "editor.defaultFormatter": "esbenp.prettier-vscode",
           "editor.tabSize": 2
         },
